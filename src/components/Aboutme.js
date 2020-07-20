@@ -31,7 +31,7 @@ function Aboutme(id) {
             <a onClick={(e) => e.preventDefault()}>
               <img
                 alt="..."
-                src={require("assets/img/faces/clem-onojeghuo-3.jpg")}
+                src={require("assets/img/me.jpeg")}
               />
             </a>
           </div>
@@ -43,32 +43,31 @@ function Aboutme(id) {
               </div>
             </a>
             <p className="card-description text-center">
-              Teamwork is so important that it is virtually impossible
-              for you to reach the heights of your capabilities or make
-              the money that you want without becoming very good at it.
+              By day, I am a data engineer working at Capital One and by night and weekends I am an artist. I love creating new things and was always into art since high school. Though I was more into digital art then, I got deeper into watercolors, oil paintings, and some acrylic paint later in college. I always am open for collaborations and commissions. Also know a decent amount of front end website development too! 
             </p>
           </CardBody>
           <CardFooter className="text-center">
             <Button
               className="btn-just-icon btn-neutral"
-              color="link"
-              href="#pablo"
-              onClick={(e) => e.preventDefault()}
+              color="link"  
+              href="http://instagram.com/artbysahaja"
+              target="_blank"
+              // onClick={(e) => e.preventDefault()}
             >
-              <i className="fa fa-twitter" />
+              <i className="fa fa-instagram" />
             </Button>
             <Button
               className="btn-just-icon btn-neutral ml-1"
               color="link"
-              href="#pablo"
+              href="mailto:sahajaray@gmail.com"
               onClick={(e) => e.preventDefault()}
             >
-              <i className="fa fa-google-plus" />
+              <i className="nc-icon nc-email-85" />
             </Button>
             <Button
               className="btn-just-icon btn-neutral ml-1"
               color="link"
-              href="#pablo"
+              href="linkedinurl"
               onClick={(e) => e.preventDefault()}
             >
               <i className="fa fa-linkedin" />

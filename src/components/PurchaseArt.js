@@ -29,7 +29,7 @@ function PurchaseArt(id) {
             <a onClick={(e) => e.preventDefault()}>
               <img
                 alt="..."
-                src={require("assets/img/faces/clem-onojeghuo-3.jpg")}
+                // src={require("assets/img/faces/me.jpeg")}
               />
             </a>
           </div>

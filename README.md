@@ -60,6 +60,10 @@ Once you download the archive, you will be able find a tutorial page inside it e
 
 ## Quick start
 
+https://github.com/do-community/React-With-Smooth-Scrolling/blob/master/src/Components/Navbar.js
+
+
+
 1.  Download the project's zip
 2.  Make sure you have node.js (<https://nodejs.org/en/>) installed
 3.  Type `npm install` in terminal/console in the source folder where `package.json` is located
