@@ -1,0 +1,8 @@
+node_modules
+CHANGELOG.md
+Documentation/
+ISSUE_TEMPLATE.md
+LICENSE.md
+gulpfile.js
+jsconfig.json
+package-lock.json
