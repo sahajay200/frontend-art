@@ -6,3 +6,7 @@ LICENSE.md
 gulpfile.js
 jsconfig.json
 package-lock.json
+.DS_Store
+src/.DS_Store
+src/assets/.DS_Store
+src/assets/img/.DS_Store

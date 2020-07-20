@@ -24,6 +24,8 @@ import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";
 import "assets/css/bootstrap.min.css";
 import "assets/scss/paper-kit.scss?v=1.2.0";
 import "assets/demo/demo.css?v=1.2.0";
+import "assets/css/landingpage.css";
+
 // pages
 import Index from "views/Index.js";
 import NucleoIcons from "views/NucleoIcons.js";
@@ -35,15 +37,16 @@ import RegisterPage from "views/examples/RegisterPage.js";
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/index" render={(props) => <Index {...props} />} />
+      {/* <Route path="/index" render={(props) => <Index {...props} />} /> */}
+      <Route path="/" render={(props) => <LandingPage {...props} />} />
       <Route
         path="/nucleo-icons"
         render={(props) => <NucleoIcons {...props} />}
       />
-      <Route
+      {/* <Route
         path="/landing-page"
         render={(props) => <LandingPage {...props} />}
-      />
+      /> */}
       <Route
         path="/profile-page"
         render={(props) => <ProfilePage {...props} />}
@@ -52,7 +55,7 @@ ReactDOM.render(
         path="/register-page"
         render={(props) => <RegisterPage {...props} />}
       />
-      <Redirect to="/index" />
+      <Redirect to="/" />
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")

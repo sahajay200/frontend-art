@@ -1356,7 +1356,8 @@
   padding: 8px !important; }
 
 .btn-round {
-  border-radius: 30px; }
+  border-radius: 30px; 
+}
 
 .btn.btn-link:focus {
   box-shadow: none !important;

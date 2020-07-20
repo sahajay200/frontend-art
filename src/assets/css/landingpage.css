@@ -1,0 +1,30 @@
+#portfolio {
+  margin: 0 15px;
+}
+
+#contactme {
+  margin: 0 15px;
+}
+
+.landing-page-container {
+  background: white;
+  
+}
+
+.description {
+ color: black;
+ font-weight: 200;
+}
+
+.title {
+  font-weight: 300;
+}
+
+.info-title {
+  font-weight: 300;
+  margin: 10px 0px;
+}
+
+#center-aboutme {
+  width: 80%;
+}
