@@ -2,7 +2,7 @@
   margin: 0 15px;
 }
 
-#contactme {
+#contactme-button {
   margin: 0 15px;
 }
 
@@ -27,4 +27,34 @@
 
 #center-aboutme {
   width: 80%;
+}
+
+#purchase-div {
+  background-color: #8ce7f0 ;
+}
+
+.card-title {
+  color: black;
+  font-weight: 600;
+}
+
+#purchase-button {
+  background-color: #6dc3eb;
+  color: black;
+}
+
+#purchase-rb {
+  size: 120px;
+}
+
+.carousel-item {
+  max-height: 700px;
+  max-width: auto;
+  /* height: auto;
+  width: auto; */
+  overflow: hidden;
+}
+
+#carousel {
+  padding: 0px;
 }

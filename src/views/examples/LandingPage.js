@@ -42,6 +42,8 @@ import LandingPageHeader from "components/Headers/LandingPageHeader.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
 import AboutMe from "components/Aboutme.js";
 import PurchaseArt from "components/PurchaseArt.js";
+import ContactMe from "components/ContactMe.js";
+import Carousel from "components/Carousel.js";
 
 
 class LandingPage extends React.Component {
@@ -97,23 +99,6 @@ class LandingPage extends React.Component {
               <Col md="3">
                 <div className="info">
                   <div className="icon icon-info">
-                    <i className="nc-icon nc-album-2" />
-                  </div>
-                  <div className="description">
-                    <h4 className="info-title">Portfolio</h4>
-                    <p className="description">
-                      Spend your time generating new ideas. You don't have to
-                      think of implementing.
-                    </p>
-                    <Button className="btn-link" color="info" href="#pablo">
-                      See more
-                    </Button>
-                  </div>
-                </div>
-              </Col>
-              <Col md="3">
-                <div className="info">
-                  <div className="icon icon-info">
                     <i className="nc-icon nc-circle-10" />
                   </div>
                   <div className="description">
@@ -134,23 +119,6 @@ class LandingPage extends React.Component {
                       >
                         See more
                       </Link>
-                    </Button>
-                  </div>
-                </div>
-              </Col>
-              <Col md="3">
-                <div className="info">
-                  <div className="icon icon-info">
-                    <i className="nc-icon nc-favourite-28" />
-                  </div>
-                  <div className="description">
-                    <h4 className="info-title">Reviews</h4>
-                    <p>
-                      Choose from a veriety of many colors resembling sugar
-                      paper pastels.
-                    </p>
-                    <Button className="btn-link" color="info" href="#pablo">
-                      See more
                     </Button>
                   </div>
                 </div>
@@ -182,63 +150,58 @@ class LandingPage extends React.Component {
                   </div>
                 </div>
               </Col>
+              <Col md="3">
+                <div className="info">
+                  <div className="icon icon-info">
+                    <i className="nc-icon nc-album-2" />
+                  </div>
+                  <div className="description">
+                    <h4 className="info-title">Portfolio</h4>
+                    <p className="description">
+                      Spend your time generating new ideas. You don't have to
+                      think of implementing.
+                    </p>
+                    <Button className="btn-link" color="info" href="#pablo">
+                      See more
+                    </Button>
+                  </div>
+                </div>
+              </Col>
+             
+              <Col md="3">
+                <div className="info">
+                  <div className="icon icon-info">
+                    <i className="nc-icon nc-favourite-28" />
+                  </div>
+                  <div className="description">
+                    <h4 className="info-title">Reviews</h4>
+                    <p>
+                      Choose from a veriety of many colors resembling sugar
+                      paper pastels.
+                    </p>
+                    <Button className="btn-link" color="info" href="#pablo">
+                      See more
+                    </Button>
+                  </div>
+                </div>
+              </Col>
+             
             </Row>
           </Container>
         </div>
         <div className="section section-dark text-center">
           <AboutMe id="aboutme" />
         </div>
-        <div className="section section-light text-center">
+        <div className="section section-light text-center" id="purchase-div">
           <PurchaseArt id="purchaseart" />
         </div>
-        <div className="section landing-section">
-          <Container>
-            <Row>
-              <Col className="ml-auto mr-auto" md="8">
-                <h2 className="text-center">Contact Me</h2>
-                <Form className="contact-form">
-                  <Row>
-                    <Col md="6">
-                      <label>Name</label>
-                      <InputGroup>
-                        <InputGroupAddon addonType="prepend">
-                          <InputGroupText>
-                            <i className="nc-icon nc-single-02" />
-                          </InputGroupText>
-                        </InputGroupAddon>
-                        <Input placeholder="Name" type="text" />
-                      </InputGroup>
-                    </Col>
-                    <Col md="6">
-                      <label>Email</label>
-                      <InputGroup>
-                        <InputGroupAddon addonType="prepend">
-                          <InputGroupText>
-                            <i className="nc-icon nc-email-85" />
-                          </InputGroupText>
-                        </InputGroupAddon>
-                        <Input placeholder="Email" type="text" />
-                      </InputGroup>
-                    </Col>
-                  </Row>
-                  <label>Message</label>
-                  <Input
-                    placeholder="Tell us your thoughts and feelings..."
-                    type="textarea"
-                    rows="4"
-                  />
-                  <Row>
-                    <Col className="ml-auto mr-auto" md="4">
-                      <Button className="btn-fill" color="danger" size="lg">
-                        Send Message
-                      </Button>
-                    </Col>
-                  </Row>
-                </Form>
-              </Col>
-            </Row>
-          </Container>
+        <div className="section section-light text-center" id="carousel">
+          <Carousel/>
         </div>
+        <div className="section section-dark text-center">
+          <ContactMe id="contactme" />  
+        </div>
+
       </div>
       <DemoFooter />
     </>

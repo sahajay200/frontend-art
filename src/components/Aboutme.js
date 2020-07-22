@@ -23,7 +23,7 @@ function Aboutme(id) {
 
   return(
     <Container id={id.id}>
-    <h2 className="title">Let's talk about us</h2>
+    <h2 className="title">Let's talk about me</h2>
     <Row>
       <Col  id="center-aboutme" lg="12">
         <Card className="card-profile card-plain">
@@ -43,12 +43,12 @@ function Aboutme(id) {
               </div>
             </a>
             <p className="card-description text-center">
-              By day, I am a data engineer working at Capital One and by night and weekends I am an artist. I love creating new things and was always into art since high school. Though I was more into digital art then, I got deeper into watercolors, oil paintings, and some acrylic paint later in college. I always am open for collaborations and commissions. Also know a decent amount of front end website development too! 
+              By day, I am a data engineer and by night and weekends I am an artist. I have no formal art education besides a couple of electives in high school so it's safe to call myself an auto didact when it comes to art. I love creating new things and was always into art since high school. Though I was more into digital art then, I got deeper into watercolors, oil paintings, and some acrylic paint later in college. I always am open for collaborations and commissions. Also know front end website development and graphic design too!
             </p>
           </CardBody>
           <CardFooter className="text-center">
             <Button
-              className="btn-just-icon btn-neutral"
+              className="btn-just-icon btn-neutral ml-1"
               color="link"  
               href="http://instagram.com/artbysahaja"
               target="_blank"
@@ -60,15 +60,15 @@ function Aboutme(id) {
               className="btn-just-icon btn-neutral ml-1"
               color="link"
               href="mailto:sahajaray@gmail.com"
-              onClick={(e) => e.preventDefault()}
+              // onClick={(e) => e.preventDefault()}
             >
-              <i className="nc-icon nc-email-85" />
+              <i className="fa fa-envelope" />
             </Button>
             <Button
               className="btn-just-icon btn-neutral ml-1"
               color="link"
               href="linkedinurl"
-              onClick={(e) => e.preventDefault()}
+              // onClick={(e) => e.preventDefault()}
             >
               <i className="fa fa-linkedin" />
             </Button>
