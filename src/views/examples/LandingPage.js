@@ -80,7 +80,7 @@ class LandingPage extends React.Component {
               <Col className="ml-auto mr-auto" md="8">
                 <h2 className="title">Hello There!</h2>
                 <h5 className="description">
-                   Thanks for visiting my portfolio page. I don't have a specific type of art I'm restricted to. Always experimenting with new things but I absolutely love portrait oil painting, watercolor prints of animals and mandalas or other art I am inspired by on instagram. I am pretty good at calligraphy and embossing. Reach out to me if you're interested in a commission!
+                   Thanks for visiting my art page. I don't have a specific type of art I'm restricted to. Always experimenting with new things but I absolutely love portrait oil painting, watercolor prints of animals and mandalas, and am now learning Digital Art. I am pretty good at calligraphy and embossing. Reach out to me if you're interested in a commission!
                 </h5>
                 <br />
                 <Button
@@ -104,7 +104,7 @@ class LandingPage extends React.Component {
                   <div className="description">
                     <h4 className="info-title">About me</h4>
                     <p>
-                      Learn more about my artist journey.
+                      Learn more about my artistic journey.
                     </p>
                     <Button className="btn-link" color="info">
                       <Link
@@ -131,7 +131,7 @@ class LandingPage extends React.Component {
                   <div className="description">
                     <h4 className="info-title">Purchase Art</h4>
                     <p>
-                      Find links to my etsy shop and rebubble shops to buy either my original pieces or prints, stickers, and other cool items.
+                      Find links to my rebubble shop to buy prints, stickers, and more.
                     </p>
                     <Button className="btn-link" color="info">
                       <Link
@@ -158,8 +158,7 @@ class LandingPage extends React.Component {
                   <div className="description">
                     <h4 className="info-title">Portfolio</h4>
                     <p className="description">
-                      Spend your time generating new ideas. You don't have to
-                      think of implementing.
+                      See all my original art available for sale.
                     </p>
                     <Button className="btn-link" color="info" href="#pablo">
                       See more
@@ -176,8 +175,7 @@ class LandingPage extends React.Component {
                   <div className="description">
                     <h4 className="info-title">Reviews</h4>
                     <p>
-                      Choose from a veriety of many colors resembling sugar
-                      paper pastels.
+                      Here are some reviews from some of my customers!
                     </p>
                     <Button className="btn-link" color="info" href="#pablo">
                       See more

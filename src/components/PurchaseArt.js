@@ -24,30 +24,6 @@ function PurchaseArt(id) {
     <h2 className="title">Buy My Art</h2>
     <Row>
       <Col md="4">
-        <Card className="card-profile card-plain">
-          <div className="card-avatar">
-            <a href="etsy.com" target="_blank">
-              <img
-                id="purchase-etsy"
-                alt="..."
-                src={require("assets/img/etsylogo.png")}
-              />
-            </a>
-          </div>
-          <CardBody>
-            <p className="card-title">
-              Buy custom art & originals on Etsy!
-            </p>
-          </CardBody>
-          <CardFooter className="text-center">
-          <Button href="https://www.etsy.com" target="_blank" className="btn-round" id="purchase-button" color="info" outline>
-            <i className="fa fa-shopping-cart" />
-            Shop now
-          </Button>
-          </CardFooter>
-        </Card>
-      </Col>
-      <Col md="4">
       <Card className="card-profile card-plain">
           <div className="card-avatar">
             <a href="etsy.com" target="_blank">
@@ -66,6 +42,30 @@ function PurchaseArt(id) {
           <Button href="https://www.redbubble.com/people/zeninked/shop" target="_blank" className="btn-round" id="purchase-button" color="info" outline>
             <i className="fa fa-instagram" />
             Follow
+          </Button>
+          </CardFooter>
+        </Card>
+      </Col>
+      <Col md="4">
+        <Card className="card-profile card-plain">
+          <div className="card-avatar">
+            <a href="etsy.com" target="_blank">
+              <img
+                id="purchase-etsy"
+                alt="..."
+                src={require("assets/img/logo.png")}
+              />
+            </a>
+          </div>
+          <CardBody>
+            <p className="card-title">
+              Buy originals from my Portfolio!
+            </p>
+          </CardBody>
+          <CardFooter className="text-center">
+          <Button href="/portfolio" target="_blank" className="btn-round" id="purchase-button" color="info" outline>
+            <i className="fa fa-shopping-cart" />
+            Shop now
           </Button>
           </CardFooter>
         </Card>

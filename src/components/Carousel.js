@@ -2,13 +2,12 @@ import React from "react";
 
 
 import art1 from "../assets/img/art/ssr.jpeg";
-import art2 from "../assets/img/art/peacockappa.tif"; 
+import art2 from "../assets/img/art/Watermarked_Shark.JPG"; 
 import art3 from "../assets/img/art/suveer2.jpeg";
-import art4 from "../assets/img/art/indiaAK.tif";
+import art4 from "../assets/img/art/indiaAK.png";
 import art5 from "../assets/img/art/kobe.jpeg";
-import art6 from "../assets/img/art/quotes.tif";
-import art7 from "../assets/img/art/ganeshislam.tif";
-
+import art6 from "../assets/img/art/sunset.JPG";
+import art7 from "../assets/img/art/ganeshislam.png";
 
 
 
@@ -39,22 +38,22 @@ const carouselItems = [
   },
   {
     src: art4,
-    altText: "Slide 3",
+    altText: "Slide 4",
     caption: ""
   },
   {
     src: art5,
-    altText: "Slide 3",
+    altText: "Slide 5",
     caption: ""
   },
   {
     src: art6,
-    altText: "Slide 3",
+    altText: "Slide 6",
     caption: ""
   },
   {
     src: art7,
-    altText: "Slide 3",
+    altText: "Slide 7",
     caption: ""
   }
 ];

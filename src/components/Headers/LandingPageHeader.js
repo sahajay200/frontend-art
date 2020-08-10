@@ -20,6 +20,7 @@ import React from "react";
 
 // reactstrap components
 import { Button, Container } from "reactstrap";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 // core components
 
@@ -67,12 +68,25 @@ function LandingPageHeader() {
               <i className="fa fa-play" />
               Portfolio
             </Button> */}
-            <Button href="/portfolio" className="btn-round" id="portfolio" color="neutral"  outline>
+            <Button href="/portfolio" className="btn-round" id="portfolio" color="neutral" outline>
               Portfolio
             </Button>
-            <Button href="/contact-me" className="btn-round" id="contactme-button" color="neutral"  outline>
-              Contact Me
+            <Button className="btn-round" id="contactme-button" color="neutral" outline>
+              <Link
+                className="btn-link"
+                id="contact-link"
+                color="info"
+                activeClass="active"
+                to="contactme"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+              >
+                Contact Me
+              </Link>
             </Button>
+
           </div>
         </Container>
       </div>

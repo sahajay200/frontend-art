@@ -25,20 +25,21 @@ import "assets/css/bootstrap.min.css";
 import "assets/scss/paper-kit.scss?v=1.2.0";
 import "assets/demo/demo.css?v=1.2.0";
 import "assets/css/landingpage.css";
+import "assets/css/portfolio.css";
 
 // pages
 import Index from "views/Index.js";
 import NucleoIcons from "views/NucleoIcons.js";
-import LandingPage from "views/examples/LandingPage.js";
-import ProfilePage from "views/examples/ProfilePage.js";
 import RegisterPage from "views/examples/RegisterPage.js";
+import LandingPage from "views/examples/LandingPage.js";
+import Portfolio from "views/examples/Portfolio";
 // others
 
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      {/* <Route path="/index" render={(props) => <Index {...props} />} /> */}
-      <Route path="/" render={(props) => <LandingPage {...props} />} />
+      <Route path="/home" render={(props) => <LandingPage {...props} />} />
+      {/* <Route path="/" render={(props) => <LandingPage {...props} />} /> */}
       <Route
         path="/nucleo-icons"
         render={(props) => <NucleoIcons {...props} />}
@@ -47,15 +48,19 @@ ReactDOM.render(
         path="/landing-page"
         render={(props) => <LandingPage {...props} />}
       /> */}
-      <Route
+      {/* <Route
         path="/profile-page"
         render={(props) => <ProfilePage {...props} />}
-      />
+      /> */}
       <Route
         path="/register-page"
         render={(props) => <RegisterPage {...props} />}
       />
-      <Redirect to="/" />
+       <Route
+        path="/portfolio"
+        render={(props) => <Portfolio {...props} />}
+      />
+      <Redirect to="/home" />
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")

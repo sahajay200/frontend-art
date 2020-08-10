@@ -18,8 +18,6 @@ import {
 } from "reactstrap";
 
 function Aboutme(id) {
-  console.log(id.id)
-
 
   return(
     <Container id={id.id}>
@@ -43,7 +41,11 @@ function Aboutme(id) {
               </div>
             </a>
             <p className="card-description text-center">
-              By day, I am a data engineer and by night and weekends I am an artist. I have no formal art education besides a couple of electives in high school so it's safe to call myself an auto didact when it comes to art. I love creating new things and was always into art since high school. Though I was more into digital art then, I got deeper into watercolors, oil paintings, and some acrylic paint later in college. I always am open for collaborations and commissions. Also know front end website development and graphic design too!
+              I am a data engineer during the day, and an artist during the nights and weekends. I have no formal art education, and an auto didact when it comes to art. 
+              I love creating new things and was always into art since high school. 
+              Though I was more into digital art with Adobe Creative Cloud then, I got deeper into watercolors, oil paintings, and some 
+              acrylic paint later in college and after graduation. I always am open for collaborations and commissions. 
+              Also know some basic front end website development and graphic design too!
             </p>
           </CardBody>
           <CardFooter className="text-center">

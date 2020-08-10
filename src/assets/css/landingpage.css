@@ -6,6 +6,10 @@
   margin: 0 15px;
 }
 
+#contact-link {
+  font-weight: 600 !important;
+}
+
 .landing-page-container {
   background: white;
   
