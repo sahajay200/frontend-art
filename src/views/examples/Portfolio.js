@@ -47,8 +47,6 @@ import {
   CardText
 } from "reactstrap";
 
-// const ImageFolder = require.context('../../assets/img', true);
-
 
 const IMAGES =
   [
@@ -59,22 +57,22 @@ const IMAGES =
       thumbnailHeight: 300,
     },
     {
-      src: require("assets/img/art/elephants.JPG"),
-      thumbnail: require("assets/img/art/elephants.JPG"),
+      src: require("assets/img/art/elephants.jpg"),
+      thumbnail: require("assets/img/art/elephants.jpg"),
       thumbnailWidth: 430,
       thumbnailHeight: 300,
     },
 
     {
-      src: require("assets/img/art/sonali.JPG"),
-      thumbnail: require("assets/img/art/sonali.JPG"),
+      src: require("assets/img/art/sonali.jpg"),
+      thumbnail: require("assets/img/art/sonali.jpg"),
       thumbnailWidth: 220,
       thumbnailHeight: 300,
     },
 
     {
-      src: require("assets/img/art/sunset.JPG"),
-      thumbnail: require("assets/img/art/sunset.JPG"),
+      src: require("assets/img/art/sunset.jpg"),
+      thumbnail: require("assets/img/art/sunset.jpg"),
       thumbnailWidth: 445,
       thumbnailHeight: 300,
     },
@@ -85,20 +83,20 @@ const IMAGES =
       thumbnailHeight: 250,
     },
     {
-      src: require("assets/img/art/dancepose1.JPG"),
-      thumbnail: require("assets/img/art/dancepose1.JPG"),
+      src: require("assets/img/art/dancepose1.jpg"),
+      thumbnail: require("assets/img/art/dancepose1.jpg"),
       thumbnailWidth: 300,
       thumbnailHeight: 300,
     },
     {
-      src: require("assets/img/art/dancepose2.JPG"),
-      thumbnail: require("assets/img/art/dancepose2.JPG"),
-      thumbnailWidth: 300,
+      src: require("assets/img/art/quote2.jpeg"),
+      thumbnail: require("assets/img/art/quote2.jpeg"),
+      thumbnailWidth: 200,
       thumbnailHeight: 300,
     },
     {
-      src: require("assets/img/art/dancepose3.JPG"),
-      thumbnail: require("assets/img/art/dancepose3.JPG"),
+      src: require("assets/img/art/dancepose2.jpg"),
+      thumbnail: require("assets/img/art/dancepose2.jpg"),
       thumbnailWidth: 300,
       thumbnailHeight: 300,
     },
@@ -109,39 +107,9 @@ const IMAGES =
       thumbnailHeight: 300,
     },
     {
-      src: require("assets/img/art/lion.jpg"),
-      thumbnail: require("assets/img/art/lion.jpg"),
+      src: require("assets/img/art/dancepose3.jpg"),
+      thumbnail: require("assets/img/art/dancepose3.jpg"),
       thumbnailWidth: 300,
-      thumbnailHeight: 250,
-    },
-    {
-      src: require("assets/img/art/joker.png"),
-      thumbnail: require("assets/img/art/joker.png"),
-      thumbnailWidth: 375,
-      thumbnailHeight: 300,
-    },
-    {
-      src: require("assets/img/art/DancerPose2digi.JPG"),
-      thumbnail: require("assets/img/art/DancerPose2digi.JPG"),
-      thumbnailWidth: 300,
-      thumbnailHeight: 300,
-    },
-    {
-      src: require("assets/img/art/ananth.PNG"),
-      thumbnail: require("assets/img/art/ananth.PNG"),
-      thumbnailWidth: 220,
-      thumbnailHeight: 220,
-    },
-    {
-      src: require("assets/img/art/suveer.jpeg"),
-      thumbnail: require("assets/img/art/suveer.jpeg"),
-      thumbnailWidth: 300,
-      thumbnailHeight: 300,
-    },
-    {
-      src: require("assets/img/art/ssr.jpeg"),
-      thumbnail: require("assets/img/art/ssr.jpeg"),
-      thumbnailWidth: 550,
       thumbnailHeight: 300,
     },
     {
@@ -151,9 +119,27 @@ const IMAGES =
       thumbnailHeight: 300,
     },
     {
-      src: require("assets/img/art/kitties.png"),
-      thumbnail: require("assets/img/art/kitties.png"),
+      src: require("assets/img/art/ganesha.jpeg"),
+      thumbnail: require("assets/img/art/ganesha.jpeg"),
+      thumbnailWidth: 230,
+      thumbnailHeight: 300,
+    },
+    {
+      src: require("assets/img/art/DancerPose1digi.jpg"),
+      thumbnail: require("assets/img/art/DancerPose1digi.jpg"),
+      thumbnailWidth: 300,
+      thumbnailHeight: 300,
+    },
+    {
+      src: require("assets/img/art/ananth.png"),
+      thumbnail: require("assets/img/art/ananth.png"),
       thumbnailWidth: 220,
+      thumbnailHeight: 220,
+    },
+    {
+      src: require("assets/img/art/DancerPose2digi.jpg"),
+      thumbnail: require("assets/img/art/DancerPose2digi.jpg"),
+      thumbnailWidth: 250,
       thumbnailHeight: 300,
     },
     {
@@ -161,8 +147,45 @@ const IMAGES =
       thumbnail: require("assets/img/art/appa.jpeg"),
       thumbnailWidth: 220,
       thumbnailHeight: 300,
-      caption: "After Rain (Jeshu John - designerspics.com)"
+      // caption: "After Rain (Jeshu John - designerspics.com)"
     },
+    {
+      src: require("assets/img/art/DancerPose3digi.jpg"),
+      thumbnail: require("assets/img/art/DancerPose3digi.jpg"),
+      thumbnailWidth: 300,
+      thumbnailHeight: 300,
+    },
+    {
+      src: require("assets/img/art/joker.png"),
+      thumbnail: require("assets/img/art/joker.png"),
+      thumbnailWidth: 375,
+      thumbnailHeight: 300,
+    },
+    {
+      src: require("assets/img/art/ssr.jpeg"),
+      thumbnail: require("assets/img/art/ssr.jpeg"),
+      thumbnailWidth: 550,
+      thumbnailHeight: 300,
+    },
+    {
+      src: require("assets/img/art/lion.jpg"),
+      thumbnail: require("assets/img/art/lion.jpg"),
+      thumbnailWidth: 360,
+      thumbnailHeight: 250,
+    },
+    {
+      src: require("assets/img/art/kitties.png"),
+      thumbnail: require("assets/img/art/kitties.png"),
+      thumbnailWidth: 220,
+      thumbnailHeight: 300,
+    },
+    {
+      src: require("assets/img/art/suveer.jpeg"),
+      thumbnail: require("assets/img/art/suveer.jpeg"),
+      thumbnailWidth: 300,
+      thumbnailHeight: 300,
+    },
+
     {
       src: require("assets/img/art/kobe.png"),
       thumbnail: require("assets/img/art/kobe.png"),
@@ -170,12 +193,6 @@ const IMAGES =
       thumbnailHeight: 300,
       // tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
       caption: "Boats (Jeshu John - designerspics.com)"
-    },
-    {
-      src: require("assets/img/art/ganesha.jpeg"),
-      thumbnail: require("assets/img/art/ganesha.jpeg"),
-      thumbnailWidth: 230,
-      thumbnailHeight: 300,
     },
     {
       src: require("assets/img/art/peacock.jpeg"),
@@ -190,54 +207,100 @@ const IMAGES =
       thumbnailHeight: 300,
     },
     {
-      src: require("assets/img/art/alexp.JPG"),
-      thumbnail: require("assets/img/art/alexp.JPG"),
+      src: require("assets/img/art/alexp.jpg"),
+      thumbnail: require("assets/img/art/alexp.jpg"),
       thumbnailWidth: 280,
       thumbnailHeight: 300,
     },
     {
-      src: require("assets/img/art/Watermarked_Shark.JPG"),
-      thumbnail: require("assets/img/art/Watermarked_Shark.JPG"),
+      src: require("assets/img/art/llama.jpg"),
+      thumbnail: require("assets/img/art/llama.jpg"),
+      thumbnailWidth: 300,
+      thumbnailHeight: 300,
+    },
+    {
+      src: require("assets/img/art/chitra.jpg"),
+      thumbnail: require("assets/img/art/chitra.jpg"),
+      thumbnailWidth: 230,
+      thumbnailHeight: 300,
+    },
+    {
+      src: require("assets/img/art/Dulquer_Salmaan.png"),
+      thumbnail: require("assets/img/art/Dulquer_Salmaan.png"),
+      thumbnailWidth: 300,
+      thumbnailHeight: 300,
+    },
+    {
+      src: require("assets/img/art/ganesha2.jpg"),
+      thumbnail: require("assets/img/art/ganesha2.jpg"),
+      thumbnailWidth: 250,
+      thumbnailHeight: 300,
+    },
+    {
+      src: require("assets/img/art/katara.jpg"),
+      thumbnail: require("assets/img/art/katara.jpg"),
+      thumbnailWidth: 320,
+      thumbnailHeight: 300,
+    },
+    {
+      src: require("assets/img/art/chicken.jpg"),
+      thumbnail: require("assets/img/art/chicken.jpg"),
+      thumbnailWidth: 300,
+      thumbnailHeight: 300,
+    },
+    {
+      src: require("assets/img/art/quote.jpg"),
+      thumbnail: require("assets/img/art/quote.jpg"),
+      thumbnailWidth: 300,
+      thumbnailHeight: 400,
+    },
+    {
+      src: require("assets/img/art/Watermarked_Shark.jpg"),
+      thumbnail: require("assets/img/art/Watermarked_Shark.jpg"),
       thumbnailWidth: 500,
       thumbnailHeight: 300,
     },
-    // {
-    //   src: require("assets/img/art/islamicart.jpeg"),
-    //   thumbnail: require("assets/img/art/islamicart.jpeg"),
-    //   thumbnailWidth: 230,
-    //   thumbnailHeight: 300,
-    // },
-    // {
-    //   src: require("assets/img/art/grandparents.JPG"),
-    //   thumbnail: require("assets/img/art/grandparents.JPG"),
-    //   thumbnailWidth: 150,
-    //   thumbnailHeight: 250,
-    // },
-    // {
-    //   src: require("assets/img/art/andrew.JPG"),
-    //   thumbnail: require("assets/img/art/andrew.JPG"),
-    //   thumbnailWidth: 520,
-    //   thumbnailHeight: 300,
-    // },
+    {
+      src: require("assets/img/art/islamicart.jpeg"),
+      thumbnail: require("assets/img/art/islamicart.jpeg"),
+      thumbnailWidth: 230,
+      thumbnailHeight: 300,
+    },
+    {
+      src: require("assets/img/art/grandparents.jpg"),
+      thumbnail: require("assets/img/art/grandparents.jpg"),
+      thumbnailWidth: 150,
+      thumbnailHeight: 250,
+    },
+    {
+      src: require("assets/img/art/andrew.jpg"),
+      thumbnail: require("assets/img/art/andrew.jpg"),
+      thumbnailWidth: 520,
+      thumbnailHeight: 300,
+    },
+    {
+      src: require("assets/img/art/deer.png"),
+      thumbnail: require("assets/img/art/deer.png"),
+      thumbnailWidth: 350,
+      thumbnailHeight: 300,
+    },
+    {
+      src: require("assets/img/art/robinwilliams.png"),
+      thumbnail: require("assets/img/art/robinwilliams.png"),
+      thumbnailWidth: 350,
+      thumbnailHeight: 250,
+    },
+    {
+      src: require("assets/img/art/india.jpeg"),
+      thumbnail: require("assets/img/art/india.jpeg"),
+      thumbnailWidth: 300,
+      thumbnailHeight: 300,
+    },
 
     
   ]
 
-// const [activeTab, setActiveTab] = React.useState("1");
 
-//   const toggle = (tab) => {
-//     if (activeTab !== tab) {
-//       setActiveTab(tab);
-//     }
-//   };
-
-//   document.documentElement.classList.remove("nav-open");
-//   React.useEffect(() => {
-//     document.body.classList.add("landing-page");
-//     return function cleanup() {
-//       document.body.classList.remove("landing-page");
-//     };
-//   });
 
 
 class Portfolio extends React.Component {
@@ -250,16 +313,15 @@ class Portfolio extends React.Component {
       <div>
         <ExamplesNavbar />
         <PortfolioPageHeader />
-        <div className="section profile-content">
+        <div className="section portfolio-content" id="portfolio-section">
           <h1 id="portfolio-h1"> Portfolio </h1>
 
           <div style={{
                     display: "block",
                     minHeight: "1px",
                     width: "100%",
-                    border: "1px solid white",
                     overflow: "auto"}}>
-          <Gallery id="gallery" images={IMAGES} backdropClosesModal={true} rowHeight={300} margin="10px" enableImageSelection={false} />
+          <Gallery id="gallery" images={IMAGES} backdropClosesModal={true} rowHeight={300} margin={5} enableImageSelection={false} />
           </div>
         </div>
       </div>

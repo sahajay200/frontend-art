@@ -19,6 +19,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";
+import Amplify from "aws-amplify";
+import awsExports from "./aws-exports";
 
 // styles
 import "assets/css/bootstrap.min.css";
@@ -34,6 +36,8 @@ import RegisterPage from "views/examples/RegisterPage.js";
 import LandingPage from "views/examples/LandingPage.js";
 import Portfolio from "views/examples/Portfolio";
 // others
+
+Amplify.configure(awsExports);
 
 ReactDOM.render(
   <BrowserRouter>

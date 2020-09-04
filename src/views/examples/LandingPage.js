@@ -42,9 +42,8 @@ import LandingPageHeader from "components/Headers/LandingPageHeader.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
 import AboutMe from "components/Aboutme.js";
 import PurchaseArt from "components/PurchaseArt.js";
-import ContactMe from "components/ContactMe.js";
 import Carousel from "components/Carousel.js";
-
+import Reviews from "components/Reviews";
 
 class LandingPage extends React.Component {
 
@@ -80,7 +79,7 @@ class LandingPage extends React.Component {
               <Col className="ml-auto mr-auto" md="8">
                 <h2 className="title">Hello There!</h2>
                 <h5 className="description">
-                   Thanks for visiting my art page. I don't have a specific type of art I'm restricted to. Always experimenting with new things but I absolutely love portrait oil painting, watercolor prints of animals and mandalas, and am now learning Digital Art. I am pretty good at calligraphy and embossing. Reach out to me if you're interested in a commission!
+                   Thanks for visiting my art page! I don't have a specific type of art I restrict myself to. I always love experimenting with new forms of art but I absolutely love portrait oil painting, watercolor prints of animals and mandalas, and am now learning Digital Art. I am pretty good at calligraphy and embossing. Reach out to me if you're interested in a commission!
                 </h5>
                 <br />
                 <Button
@@ -160,7 +159,7 @@ class LandingPage extends React.Component {
                     <p className="description">
                       See all my original art available for sale.
                     </p>
-                    <Button className="btn-link" color="info" href="#pablo">
+                    <Button className="btn-link" color="info" href="/portfolio">
                       See more
                     </Button>
                   </div>
@@ -177,8 +176,19 @@ class LandingPage extends React.Component {
                     <p>
                       Here are some reviews from some of my customers!
                     </p>
-                    <Button className="btn-link" color="info" href="#pablo">
-                      See more
+                    <Button className="btn-link" color="info">
+                      <Link
+                          className="btn-link btn btn-info"
+                          color="info"
+                          activeClass="active"
+                          to="reviews"
+                          spy={true}
+                          smooth={true}
+                          offset={-40}
+                          duration={500}
+                      >
+                        See more
+                      </Link>
                     </Button>
                   </div>
                 </div>
@@ -196,9 +206,12 @@ class LandingPage extends React.Component {
         <div className="section section-light text-center" id="carousel">
           <Carousel/>
         </div>
-        <div className="section section-dark text-center">
-          <ContactMe id="contactme" />  
+        <div className="section section-light text-center" id="reviews">
+          <Reviews/>
         </div>
+        {/* <div className="section section-dark text-center">
+          <ContactMe id="contactme" />  
+        </div> */}
 
       </div>
       <DemoFooter />

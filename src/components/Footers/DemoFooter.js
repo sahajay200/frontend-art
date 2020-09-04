@@ -30,14 +30,9 @@ function DemoFooter() {
           <nav className="footer-nav">
             <ul>
               <li>
-                <a
-                  href="https://www.creative-tim.com?ref=pkr-footer"
-                  target="_blank"
-                >
-                  Creative Tim
-                </a>
+                Last updated Sept 2020 
               </li>
-              <li>
+              {/* <li>
                 <a
                   href="http://blog.creative-tim.com/?ref=pkr-footer"
                   target="_blank"
@@ -52,13 +47,13 @@ function DemoFooter() {
                 >
                   Licenses
                 </a>
-              </li>
+              </li> */}
             </ul>
           </nav>
           <div className="credits ml-auto">
             <span className="copyright">
               © {new Date().getFullYear()}, made with{" "}
-              <i className="fa fa-heart heart" /> by Creative Tim
+              <i className="fa fa-heart heart" /> by Sahaja
             </span>
           </div>
         </Row>

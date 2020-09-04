@@ -65,7 +65,7 @@ function PurchaseArt(id) {
           <CardFooter className="text-center">
           <Button href="/portfolio" target="_blank" className="btn-round" id="purchase-button" color="info" outline>
             <i className="fa fa-shopping-cart" />
-            Shop now
+            Look now
           </Button>
           </CardFooter>
         </Card>

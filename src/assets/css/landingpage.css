@@ -1,13 +1,13 @@
 #portfolio {
   margin: 0 15px;
+  font-weight: 800 !important;
 }
 
-#contactme-button {
-  margin: 0 15px;
-}
 
 #contact-link {
   font-weight: 600 !important;
+  padding: 0px !important;
+
 }
 
 .landing-page-container {
@@ -54,11 +54,61 @@
 .carousel-item {
   max-height: 700px;
   max-width: auto;
-  /* height: auto;
-  width: auto; */
   overflow: hidden;
 }
 
 #carousel {
   padding: 0px;
+}
+
+#contact-a {
+  color: #9ed9f5;
+  font-weight: 400;
+}
+
+#contact-a:hover {
+  color: #82b0c5;
+}
+
+#reviews {
+  background-color: black;
+  color: white;
+}
+
+.reviews-title {
+  color: white;
+  font-weight: 500;
+}
+
+.card-description-reviews {
+  color: white;
+  font-weight: 400;
+}
+
+.piece-title {
+  color: white
+}
+
+.customer {
+  color: white;
+}
+
+/* .card-profile .card-avatar {
+  border-radius: 20%;
+  max-width: 250px !important;
+  max-height: 250px !important;
+} */
+
+.art-avatar {
+  border-radius: 20% !important;
+  max-width: 250px !important;
+  max-height: 250px !important;
+}
+
+#dancer-comm {
+  margin: 35px 0px;
+}
+
+.row {
+  justify-content: center;
 }

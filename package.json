@@ -3,6 +3,8 @@
   "version": "1.2.0",
   "private": true,
   "dependencies": {
+    "@aws-amplify/ui-react": "^0.2.14",
+    "aws-amplify": "^3.0.23",
     "classnames": "2.2.6",
     "moment": "2.26.0",
     "node-sass": "4.14.1",

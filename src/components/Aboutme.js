@@ -34,7 +34,7 @@ function Aboutme(id) {
             </a>
           </div>
           <CardBody>
-            <a href="#pablo" onClick={(e) => e.preventDefault()}>
+            <a onClick={(e) => e.preventDefault()}>
               <div className="author">
                 <CardTitle tag="h4">Sahaja Yerramsetti</CardTitle>
                 <h6 className="card-category"> Arist, Graphic Designer, and Engineer</h6>
@@ -47,6 +47,16 @@ function Aboutme(id) {
               acrylic paint later in college and after graduation. I always am open for collaborations and commissions. 
               Also know some basic front end website development and graphic design too!
             </p>
+          </CardBody>
+          <CardBody>
+              <div className="author">
+                <CardTitle id="email-title" tag="h5">Email Me @
+                  <a id="contact-a" href="mailto:sahajaray@gmail.com" > sahajaray@gmail.com </a> 
+                </CardTitle>
+                <CardTitle id="insta-title" tag="h5">DM me on Instagram @
+                  <a id="contact-a" href="https://www.instagram.com/artbysahaja/" > @artbysahaja </a> 
+                </CardTitle>
+              </div>
           </CardBody>
           <CardFooter className="text-center">
             <Button
@@ -77,8 +87,9 @@ function Aboutme(id) {
           </CardFooter>
         </Card>
       </Col>
-  
-    </Row>
+
+        </Row>  
+
     </Container> 
 
   )

@@ -69,15 +69,14 @@ function LandingPageHeader() {
               Portfolio
             </Button> */}
             <Button href="/portfolio" className="btn-round" id="portfolio" color="neutral" outline>
-              Portfolio
+                  Portfolio
             </Button>
-            <Button className="btn-round" id="contactme-button" color="neutral" outline>
+            <Button className="btn-round" id="portfolio" color="neutral" outline>
               <Link
-                className="btn-link"
-                id="contact-link"
+                id="portfolio"
                 color="info"
                 activeClass="active"
-                to="contactme"
+                to="aboutme"
                 spy={true}
                 smooth={true}
                 offset={-100}
