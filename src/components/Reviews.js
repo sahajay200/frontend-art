@@ -30,7 +30,7 @@ function Reviews(id) {
                 <img
                   id="art-avatar"
                   alt="..."
-                  src={require("assets/img/art/peacock.jpeg")}
+                  src={require("assets/img/art/peacock.jpg")}
                 />
               </a>
             </div>
