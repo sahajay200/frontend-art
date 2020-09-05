@@ -29,7 +29,7 @@ function ContactMe(id) {
               <h4 class="contact-info"> Email:  </h4>
             </Col>
             <Col md="4">
-              <h4 class="contact-link"> <a href="mailto:sahajaray@gmail.com" > sahajaray@gmail.com </a> </h4>
+              <h4 class="contact-link"> <a href="mailto:artbysahaja@gmail.com" > artbysahaja@gmail.com </a> </h4>
             </Col>
             <Col md="3">
               <h4 class="contact-info"> Instagram:  </h4>

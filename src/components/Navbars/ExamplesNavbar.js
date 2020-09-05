@@ -20,6 +20,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 // nodejs library that concatenates strings
 import classnames from "classnames";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 // reactstrap components
 import {
@@ -56,6 +57,7 @@ function ExamplesNavbar() {
 
       }
     };
+
 
     window.addEventListener("scroll", updateNavbarColor);
 
@@ -125,12 +127,24 @@ function ExamplesNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="mailto:sahajaray@gmail.com"
+                href="mailto:artbysahaja@gmail.com"
                 target="_blank"
                 title="Email Me"
               >
-                <i className="fa fa-envelope" />
+                <i className="fa fas fa-envelope" />
                 <p className="d-lg-none">Email</p>
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink
+                data-placement="bottom"
+                href="https://www.artstation.com/artbysahaja"
+                target="_blank"
+                title="Art Station"
+              >
+                <i class="fab fa-artstation"></i>
+                <p className="d-lg-none">Art Station</p>
+
               </NavLink>
             </NavItem>
           </Nav>

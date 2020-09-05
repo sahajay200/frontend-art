@@ -161,7 +161,26 @@
 }
 
 
+
 @media screen and (max-width: 991px) {
+  .navbar.navbar-trans {
+    opacity: 0.88 !important;
+    background-color: black !important;
+    padding-top: 0px !important;
+  }
+
+  .navbar-side {
+    background-color: #6dc3eb;
+    color: #66615B;
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link {
+    color: #66615B;
+  } 
+
+}
+
+@media screen and (max-width: 700) {
   .navbar.navbar-trans {
     opacity: 0.88 !important;
     background-color: black !important;

@@ -46,10 +46,10 @@ function Aboutme(id) {
           </CardBody>
           <CardBody>
               <div className="author">
-                <CardTitle id="email-title" tag="h5">Email Me @
-                  <a id="contact-a" href="mailto:sahajaray@gmail.com" > sahajaray@gmail.com </a> 
+                <CardTitle id="email-title" tag="h5">Email Me:
+                  <a id="contact-a" href="mailto:artbysahaja@gmail.com" > artbysahaja@gmail.com </a> 
                 </CardTitle>
-                <CardTitle id="insta-title" tag="h5">DM me on Instagram @
+                <CardTitle id="insta-title" tag="h5">DM me on Instagram:
                   <a id="contact-a" href="https://www.instagram.com/artbysahaja/" > @artbysahaja </a> 
                 </CardTitle>
               </div>
@@ -67,7 +67,7 @@ function Aboutme(id) {
             <Button
               className="btn-just-icon btn-neutral ml-1"
               color="link"
-              href="mailto:sahajaray@gmail.com"
+              href="mailto:artbysahaja@gmail.com"
               // onClick={(e) => e.preventDefault()}
             >
               <i className="fa fa-envelope" />
@@ -75,10 +75,10 @@ function Aboutme(id) {
             <Button
               className="btn-just-icon btn-neutral ml-1"
               color="link"
-              href="linkedinurl"
+              href="https://www.artstation.com/artbysahaja"
               // onClick={(e) => e.preventDefault()}
             >
-              <i className="fa fa-linkedin" />
+              <i class="fab fa-artstation"></i>
             </Button>
           </CardFooter>
         </Card>
