@@ -22,15 +22,15 @@ import { Link, animateScroll as scroll } from "react-scroll";
 // reactstrap components
 import {
   Button,
-  Card,
-  CardBody,
-  CardFooter,
-  CardTitle,
-  Form,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
+  // Card,
+  // CardBody,
+  // CardFooter,
+  // CardTitle,
+  // Form,
+  // Input,
+  // InputGroupAddon,
+  // InputGroupText,
+  // InputGroup,
   Container,
   Row,
   Col,
@@ -157,7 +157,7 @@ class LandingPage extends React.Component {
                   <div className="description">
                     <h4 className="info-title">Portfolio</h4>
                     <p className="description">
-                      See all my original art available for sale.
+                      See all my original art and past commissions! 
                     </p>
                     <Button className="btn-link" color="info" href="/portfolio">
                       See more
@@ -197,7 +197,7 @@ class LandingPage extends React.Component {
             </Row>
           </Container>
         </div>
-        <div className="section section-dark text-center">
+        <div id="aboutme-container" className="section section-dark text-center">
           <AboutMe id="aboutme" />
         </div>
         <div className="section section-light text-center" id="purchase-div">

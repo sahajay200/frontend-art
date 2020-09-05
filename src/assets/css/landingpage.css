@@ -33,6 +33,16 @@
   width: 80%;
 }
 
+#aboutme-container {
+  background-color: #0e4878;
+  padding: 20px 0;
+}
+
+.aboutme-para {
+  font-weight: 300; 
+  color: white !important;
+}
+
 #purchase-div {
   background-color: #8ce7f0 ;
 }
@@ -76,13 +86,14 @@
 }
 
 .reviews-title {
-  color: white;
+  color: white; 
   font-weight: 500;
 }
 
 .card-description-reviews {
   color: white;
   font-weight: 400;
+  padding: 30px 10px;
 }
 
 .piece-title {
@@ -105,10 +116,65 @@
   max-height: 250px !important;
 }
 
+#art-avatar {
+  border-radius: 0% !important;
+}
+
+
+.art-avatar-odd {
+  border-radius: 0% !important;
+  max-width: 200px !important;
+  max-height: 200px !important;
+}
+
 #dancer-comm {
   margin: 35px 0px;
 }
 
 .row {
   justify-content: center;
+}
+
+
+.navbar-side {
+  background-color: #6dc3eb;
+  color: #66615B;
+}
+
+.justify-content-end .collapse .show .navbar-collapse {
+  background-color: #6dc3eb;
+}
+
+.navbar.navbar-trans {
+  opacity: 0.80 !important;
+  background-color: black !important;
+  padding-top: 0px !important;
+  color: white !important;
+}
+
+.navbar .navbar-brand {
+  color: white !important;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  color: white;
+}
+
+
+@media screen and (max-width: 991px) {
+  .navbar.navbar-trans {
+    opacity: 0.88 !important;
+    background-color: black !important;
+    padding-top: 0px !important;
+  }
+
+  .navbar-side {
+    background-color: #6dc3eb;
+    color: #66615B;
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link {
+    color: #66615B;
+  } 
+
 }

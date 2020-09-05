@@ -17,34 +17,34 @@
 
 */
 import React from "react";
-import { render } from 'react-dom';
+// import { render } from 'react-dom';
 import Gallery from 'react-grid-gallery';
 // core components
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 // import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
 import PortfolioPageHeader from "components/Headers/PortfolioPageHeader.js";
-import DemoFooter from "components/Footers/DemoFooter.js";
+// import DemoFooter from "components/Footers/DemoFooter.js";
 // import IMAGES from "assets/img/images.json";
 
 
 // reactstrap components
 import {
-  Button,
-  Label,
-  FormGroup,
-  Input,
-  NavItem,
-  NavLink,
-  Nav,
-  TabContent,
-  TabPane,
-  Container,
-  Row,
-  Col,
-  Card,
-  CardImg,
-  CardBody,
-  CardText
+  // Button,
+  // Label,
+  // FormGroup,
+  // Input,
+  // NavItem,
+  // NavLink,
+  // Nav,
+  // TabContent,
+  // TabPane,
+  // Container,
+  // Row,
+  // Col,
+  // Card,
+  // CardImg,
+  // CardBody,
+  // CardText
 } from "reactstrap";
 
 
@@ -192,7 +192,7 @@ const IMAGES =
       thumbnailWidth: 500,
       thumbnailHeight: 300,
       // tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
-      caption: "Boats (Jeshu John - designerspics.com)"
+      // caption: "Boats (Jeshu John - designerspics.com)"
     },
     {
       src: require("assets/img/art/peacock.jpg"),
@@ -300,14 +300,11 @@ const IMAGES =
     
   ]
 
-
-
-
 class Portfolio extends React.Component {
 
   render() {
     document.getElementById('example-0')
-    const ImageFolder = require.context('../../assets/img', true);
+    // const ImageFolder = require.context('../../assets/img', true);
 
     return (
       <div>

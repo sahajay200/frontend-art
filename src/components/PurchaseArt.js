@@ -6,12 +6,12 @@ import {
   Card,
   CardBody,
   CardFooter,
-  CardTitle,
-  Form,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
+  // CardTitle,
+  // Form,
+  // Input,
+  // InputGroupAddon,
+  // InputGroupText,
+  // InputGroup,
   Container,
   Row,
   Col,
@@ -20,7 +20,7 @@ import {
 function PurchaseArt(id) {
 
   return(
-    <Container class="primary" id={id.id}>
+    <Container className="primary" id={id.id}>
     <h2 className="title">Buy My Art</h2>
     <Row>
       <Col md="4">
@@ -59,7 +59,7 @@ function PurchaseArt(id) {
           </div>
           <CardBody>
             <p className="card-title">
-              Buy originals from my Portfolio!
+              See originals from my Portfolio!
             </p>
           </CardBody>
           <CardFooter className="text-center">

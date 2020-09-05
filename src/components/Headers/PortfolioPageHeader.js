@@ -44,7 +44,7 @@ function PortfolioPageHeader() {
       <div
         style={{
           backgroundImage:
-            "url(" + require("assets/img/art/sunset.JPG") + ")",
+            "url(" + require("assets/img/art/sunset.jpg") + ")",
         }}
         className="page-header page-header-xs"
         data-parallax={true}

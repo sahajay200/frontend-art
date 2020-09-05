@@ -47,12 +47,13 @@ function ExamplesNavbar() {
         document.documentElement.scrollTop > 299 ||
         document.body.scrollTop > 299
       ) {
-        setNavbarColor("");
+        setNavbarColor("navbar-side")
       } else if (
         document.documentElement.scrollTop < 300 ||
         document.body.scrollTop < 300
       ) {
-        setNavbarColor("navbar-transparent");
+        setNavbarColor("navbar-trans");
+
       }
     };
 
@@ -65,7 +66,7 @@ function ExamplesNavbar() {
   return (
     <Navbar
       className={classnames("fixed-top", navbarColor)}
-      color-on-scroll="300"
+      color-on-scroll="299"
       expand="lg"
     >
       <Container>
@@ -74,7 +75,7 @@ function ExamplesNavbar() {
             data-placement="bottom"
             to="/index"
             target="_blank"
-            title="Coded by Creative Tim"
+            title="Art by Sahaja"
             tag={Link}
           >
             Art By Sahaja
@@ -96,7 +97,7 @@ function ExamplesNavbar() {
           navbar
           isOpen={navbarCollapse}
         >
-          <Nav navbar>
+          <Nav id="navbar-side" navbar>
             <NavItem>
               <NavLink to="/portfolio" tag={Link}>
                 <i className="nc-icon nc-layout-11" /> Portfolio
