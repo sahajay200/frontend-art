@@ -1,0 +1,14 @@
+type Todo @model {
+  id: ID!
+  name: String!
+  description: String
+}
+
+type Contact @model {
+  id: ID!
+  firstName: String
+  lastName: String
+  email: String
+  comment:  String
+}
+

@@ -46,7 +46,7 @@ function LandingPageHeader() {
       <div
         style={{
           backgroundImage:
-            "url(" + require("assets/img/landingpage.jpg") + ")",
+            "url(" + require("assets/img/art/sunset.jpg") + ")",
         }}
         className="page-header"
         data-parallax={true}
@@ -54,7 +54,7 @@ function LandingPageHeader() {
       >
         <div className="filter" />
         <Container>
-          <div className="motto text-center">
+          <div className="motto text-center landing-title">
             <h1>Art by Sahaja</h1>
             {/* <h3>Welcome to my portfolio</h3> */}
             <br />

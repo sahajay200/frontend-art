@@ -82,7 +82,7 @@ function PurchaseArt(id) {
             </div>
             <CardBody>
               <p className="card-title">
-                Buy & stickers on RedBubble!
+                Buy stickers on RedBubble!
               </p>
             </CardBody>
             <CardFooter className="text-center">

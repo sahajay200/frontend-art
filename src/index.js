@@ -56,10 +56,10 @@ ReactDOM.render(
         path="/profile-page"
         render={(props) => <ProfilePage {...props} />}
       /> */}
-      <Route
+      {/* <Route
         path="/register-page"
         render={(props) => <RegisterPage {...props} />}
-      />
+      /> */}
        <Route
         path="/portfolio"
         render={(props) => <Portfolio {...props} />}

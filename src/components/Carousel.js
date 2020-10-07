@@ -2,14 +2,15 @@ import React from "react";
 
 import art1 from "../assets/img/art/ssr.jpg";
 import art2 from "../assets/img/art/Watermarked_Shark.jpg"; 
-import art3 from "../assets/img/art/suveer2.jpg";
-import art4 from "../assets/img/art/indiaAK.png";
+import art3 from "../assets/img/art/deer.png";
+import art4 from "../assets/img/art/katara.jpg";
 import art5 from "../assets/img/art/kobe.jpg";
 import art6 from "../assets/img/art/sunset.jpg";
-import art7 from "../assets/img/art/ganeshislam.png";
+import art7 from "../assets/img/art/peacock.jpg";
 
 // reactstrap components
 import { UncontrolledCarousel } from "reactstrap";
+
 
 const carouselItems = [
   // {

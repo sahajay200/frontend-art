@@ -44,7 +44,6 @@ import AboutMe from "components/Aboutme.js";
 import PurchaseArt from "components/PurchaseArt.js";
 import Carousel from "components/Carousel.js";
 import Reviews from "components/Reviews";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 class LandingPage extends React.Component {
 

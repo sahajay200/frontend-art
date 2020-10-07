@@ -1,0 +1,48 @@
+{
+    "paths": [
+        {
+            "name": "/contactform",
+            "lambdaFunction": "contactLambda",
+            "privacy": {
+                "protected": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ],
+                "unauth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ]
+            }
+        }
+    ],
+    "resourceName": "contact",
+    "apiName": "contact",
+    "functionArns": [
+        {
+            "lambdaFunction": "contactLambda"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 1,
+        "authRoleName": "amplify-backend-dev-224344-authRole",
+        "unAuthRoleName": "amplify-backend-dev-224344-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "contactLambda",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

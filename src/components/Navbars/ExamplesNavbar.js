@@ -20,7 +20,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 // nodejs library that concatenates strings
 import classnames from "classnames";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 // reactstrap components
 import {
@@ -142,7 +141,7 @@ function ExamplesNavbar() {
                 target="_blank"
                 title="Art Station"
               >
-                <i class="fab fa-artstation"></i>
+                <i className="fab fa-artstation"></i>
                 <p className="d-lg-none">Art Station</p>
 
               </NavLink>

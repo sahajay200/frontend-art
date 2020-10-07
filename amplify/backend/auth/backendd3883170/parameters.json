@@ -1,6 +1,6 @@
 {
     "identityPoolName": "backendd3883170_identitypool_d3883170",
-    "allowUnauthenticatedIdentities": false,
+    "allowUnauthenticatedIdentities": true,
     "resourceNameTruncated": "backend3883170",
     "userPoolName": "backendd3883170_userpool_d3883170",
     "autoVerifiedAttributes": [
