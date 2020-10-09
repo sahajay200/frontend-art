@@ -202,9 +202,9 @@ class LandingPage extends React.Component {
         <div className="section section-light text-center" id="purchase-div">
           <PurchaseArt id="purchaseart" />
         </div>
-        <div className="section section-light text-center" id="carousel">
+        {/* <div className="section section-light text-center" id="carousel">
           <Carousel/>
-        </div>
+        </div> */}
         <div className="section section-light text-center" id="reviews">
           <Reviews/>
         </div>

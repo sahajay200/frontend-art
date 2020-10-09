@@ -31,7 +31,8 @@ function Reviews(id) {
                   <CardTitle className="customer" tag="h4">Puja G</CardTitle>
                 </div>
               <p className="card-description-reviews text-center">
-                "Customer Quote"
+                "As soon as I saw this painting I knew I had to have it. The picture doesn't do it justice, it is so beautiful and detailed, 
+                you can tell a lot of hard work and effort was put into this piece!"
             </p>
             </CardBody>
           </Card>
@@ -77,7 +78,7 @@ function Reviews(id) {
                 </div>
               </a>
               <p className="card-description-reviews text-center">
-                "Customer Quote"
+                "I asked her to make one after seeing a previous post of hers on instagram. She instantly agreed and my girlfriend absolutely loved it!"
             </p>
             </CardBody>
           </Card>

@@ -29,6 +29,10 @@
   margin: 10px 0px;
 }
 
+.logo-title {
+  width: 500px;
+}
+
 #center-aboutme {
   width: 80%;
 }
@@ -163,8 +167,12 @@
   color: white;
 }
 
+.logo-icon {
+  width: 50px;
+}
+
 .landing-title {
-  background: rgb(19, 32, 46);
+  background: rgb(43, 119, 161);
   padding: 15px 0px 35px 0px;
   opacity: .75;
   border-radius: 15px;

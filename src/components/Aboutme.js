@@ -37,7 +37,7 @@ function Aboutme(id) {
                 <h6 className="card-category"> Arist, Graphic Designer, and Engineer</h6>
               </div>
             <p className="card-description text-center aboutme-para">
-              I am a data engineer during the day, and an artist during the nights and weekends. I have no formal art education, and an auto didact when it comes to art. 
+              I am a data engineer during the day, and an artist during the nights and weekends. I have no formal art education, and am an auto didact when it comes to art. 
               I love creating new things and was always into art since high school. 
               Though I was more into digital art with Adobe Creative Cloud then, I got deeper into watercolors, oil paintings, and some 
               acrylic paint later in college and after graduation. I always am open for collaborations and commissions. 

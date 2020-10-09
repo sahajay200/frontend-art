@@ -21,6 +21,8 @@ import React from "react";
 // reactstrap components
 import { Button, Container } from "reactstrap";
 import { Link, animateScroll as scroll } from "react-scroll";
+import LogoTitle from "assets/img/art/logo/pinkblue-title.png";
+import LogoTitle2 from "assets/img/art/logo/bluepink-title.png";
 
 // core components
 
@@ -55,7 +57,8 @@ function LandingPageHeader() {
         <div className="filter" />
         <Container>
           <div className="motto text-center landing-title">
-            <h1>Art by Sahaja</h1>
+            {/* <h1>Art by Sahaja</h1> */}
+            <img className="logo-title" src={LogoTitle}/> 
             {/* <h3>Welcome to my portfolio</h3> */}
             <br />
             {/* <Button

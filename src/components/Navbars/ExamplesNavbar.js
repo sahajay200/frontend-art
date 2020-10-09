@@ -20,7 +20,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 // nodejs library that concatenates strings
 import classnames from "classnames";
-
+import LogoTitle from "assets/img/art/logo/pinkbluelogo.png";
 // reactstrap components
 import {
   Collapse,
@@ -72,6 +72,7 @@ function ExamplesNavbar() {
     >
       <Container>
         <div className="navbar-translate">
+          <img className="logo-icon" src={LogoTitle}/> 
           <NavbarBrand
             data-placement="bottom"
             to="/index"
@@ -81,6 +82,7 @@ function ExamplesNavbar() {
           >
             Art By Sahaja
           </NavbarBrand>
+          
           <button
             aria-expanded={navbarCollapse}
             className={classnames("navbar-toggler navbar-toggler", {
