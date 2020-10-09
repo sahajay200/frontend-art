@@ -196,6 +196,10 @@
     color: #66615B;
   } 
 
+  .logo-title {
+    width: 300px;
+  }
+
 }
 
 @media screen and (max-width: 700) {
@@ -214,4 +218,15 @@
     color: #66615B;
   } 
 
+  .logo-title {
+    width: 250px !important;
+  }
+
 }
+
+@media screen and (max-width: 500) {
+
+
+}
+
+
