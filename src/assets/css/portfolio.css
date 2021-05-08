@@ -2,14 +2,9 @@
   text-align: center;
   background: black;
   color: white;
-  margin: 25px;
+  margin-top: 1em;
   padding: 10px 0;
-}
-
-
-#gallery {
-  align-items: center;
-  margin: 5px 10px;
+  
 }
 
 .navbar.navbar-transparent {

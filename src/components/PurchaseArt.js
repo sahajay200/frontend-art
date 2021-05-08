@@ -36,11 +36,11 @@ function PurchaseArt(id) {
           </div>
           <CardBody>
             <p className="card-title">
-              See originals from my Portfolio!
+              Buy originals from my Portfolio!
             </p>
           </CardBody>
           <CardFooter className="text-center">
-          <Button href="/portfolio" target="_blank" className="btn-round" id="purchase-button" color="info" outline>
+          <Button href="https://www.facebook.com/artbysahaja" target="_blank" className="btn-round" id="purchase-button" color="info" outline>
             <i className="fa fa-shopping-cart" />
             Look now
           </Button>

@@ -128,6 +128,18 @@ function ExamplesNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
+                href="https://www.facebook.com/artbysahaja"
+                target="_blank"
+                title="Art Station"
+              >
+                <i className="fab fa-facebook"></i>
+                <p className="d-lg-none">Facebook</p>
+
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink
+                data-placement="bottom"
                 href="mailto:artbysahaja@gmail.com"
                 target="_blank"
                 title="Email Me"

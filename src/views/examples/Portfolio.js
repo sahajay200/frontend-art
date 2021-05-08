@@ -297,7 +297,7 @@ const IMAGES =
       thumbnailHeight: 300,
     },
 
-    
+
   ]
 
 class Portfolio extends React.Component {
@@ -308,9 +308,10 @@ class Portfolio extends React.Component {
 
     return (
       <div>
-        <ExamplesNavbar />
-        <PortfolioPageHeader />
-        <div className="section portfolio-content" id="portfolio-section">
+        {/* <ExamplesNavbar />
+        <PortfolioPageHeader /> */}
+
+        {/* <div className="section portfolio-content" id="portfolio-section">
           <h1 id="portfolio-h1"> Portfolio </h1>
 
           <div style={{
@@ -319,14 +320,63 @@ class Portfolio extends React.Component {
                     width: "100%",
                     overflow: "auto"}}>
           <Gallery id="gallery" images={IMAGES} backdropClosesModal={true} rowHeight={300} margin={5} enableImageSelection={false} />
+          */}
+
+
+        <div class="card card-raised page-carousel">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+
+            
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <img class="d-block img-fluid" src="assets/img/art/andrew.jpg" alt="First slide" />
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Somewhere</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block img-fluid" src="assets/img/art/chicken.jpg" alt="Second slide" />
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Somewhere else</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block img-fluid" src="assets/img/art/deer.jpg" alt="Third slide" />
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Here it is</p>
+                </div>
+              </div>
+            </div>
+
+            <a class="left carousel-control carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="fa fa-angle-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="fa fa-angle-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
         </div>
+
+
       </div>
+
+
+
+
 
     );
 
   }
 }
+
+
 // return (
 //   <>
 //     <ExamplesNavbar />

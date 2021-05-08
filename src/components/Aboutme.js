@@ -49,7 +49,7 @@ function Aboutme(id) {
                 <CardTitle id="email-title" tag="h5">Email Me:
                   <a id="contact-a" href="mailto:artbysahaja@gmail.com" > artbysahaja@gmail.com </a> 
                 </CardTitle>
-                <CardTitle id="insta-title" tag="h5">DM me on Instagram:
+                <CardTitle id="insta-title" tag="h5">DM on Instagram:
                   <a id="contact-a" href="https://www.instagram.com/artbysahaja/" > @artbysahaja </a> 
                 </CardTitle>
               </div>
@@ -67,6 +67,14 @@ function Aboutme(id) {
             <Button
               className="btn-just-icon btn-neutral ml-1"
               color="link"
+              href="https://www.facebook.com/artbysahaja"
+              // onClick={(e) => e.preventDefault()}
+            >
+              <i class="fab fa-facebook"></i>
+            </Button>
+            <Button
+              className="btn-just-icon btn-neutral ml-1"
+              color="link"
               href="mailto:artbysahaja@gmail.com"
               // onClick={(e) => e.preventDefault()}
             >
@@ -80,6 +88,7 @@ function Aboutme(id) {
             >
               <i class="fab fa-artstation"></i>
             </Button>
+
           </CardFooter>
         </Card>
       </Col>

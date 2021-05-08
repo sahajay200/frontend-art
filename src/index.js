@@ -35,6 +35,8 @@ import NucleoIcons from "views/NucleoIcons.js";
 import RegisterPage from "views/examples/RegisterPage.js";
 import LandingPage from "views/examples/LandingPage.js";
 import Portfolio from "views/examples/Portfolio";
+import Portfolio2 from "views/examples/Portfolio2";
+
 // others
 
 Amplify.configure(awsExports);
@@ -62,7 +64,7 @@ ReactDOM.render(
       /> */}
        <Route
         path="/portfolio"
-        render={(props) => <Portfolio {...props} />}
+        render={(props) => <Portfolio2 {...props} />}
       />
       <Redirect to="/home" />
     </Switch>
