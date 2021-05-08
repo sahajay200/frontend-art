@@ -1,9 +1,9 @@
 export const imglist =
   [
     {
-      src: require("assets/img/art/pooja.png"),
-      width: 2.5,
-      height: 3
+      src: require("assets/img/art/shiva.jpg"),
+      width: 1.75,
+      height: 2
     },
     {
       src: require("assets/img/art/elephants.jpg"),
@@ -11,48 +11,8 @@ export const imglist =
       height: 3
     },
     {
-      src: require("assets/img/art/sonali.jpg"),
-      width: 2.5,
-      height: 3.5
-    },
-    {
       src: require("assets/img/art/sunset.jpg"),
       width: 4,
-      height: 3
-    },
-    {
-      src: require("assets/img/art/mandala.png"),
-      width: 2.5,
-      height: 3
-    },
-    {
-      src: require("assets/img/art/dancepose1.jpg"),
-      width: 3,
-      height: 3
-    },
-    {
-      src: require("assets/img/art/quote2.jpg"),
-      width: 2.5,
-      height: 4
-    },
-    {
-      src: require("assets/img/art/dancepose2.jpg"),
-      width: 3,
-      height: 3
-    },
-    {
-      src: require("assets/img/art/quote1.jpg"),
-      width: 2,
-      height: 3
-    },
-    {
-      src: require("assets/img/art/llamaart.jpg"),
-      width: 2,
-      height: 3
-    },
-    {
-      src: require("assets/img/art/dancepose3.jpg"),
-      width: 3,
       height: 3
     },
     {
@@ -61,24 +21,55 @@ export const imglist =
       height: 2.5
     },
     {
+      src: require("assets/img/art/appa.jpg"),
+      width: 2,
+      height: 2.5,
+    },
+    {
+      src: require("assets/img/art/dancepose1.jpg"),
+      width: 3,
+      height: 3
+    },
+    {
+      src: require("assets/img/art/dancepose2.jpg"),
+      width: 3,
+      height: 3
+    },
+    {
+      src: require("assets/img/art/dancepose3.jpg"),
+      width: 3,
+      height: 3
+    },
+    {
+      src: require("assets/img/art/llamaart.jpg"),
+      width: 2,
+      height: 3
+    },
+
+    {
+      src: require("assets/img/art/quote2.jpg"),
+      width: 2.5,
+      height: 4
+    },
+    {
+      src: require("assets/img/art/quote1.jpg"),
+      width: 2,
+      height: 3
+    },
+    {
+      src: require("assets/img/art/mandala.png"),
+      width: 2.5,
+      height: 3
+    },
+    {
       src: require("assets/img/art/DancerPose1digi.jpg"),
       width: 2,
       height: 2
     },
     {
-      src: require("assets/img/art/ananth.png"),
-      width: 2,
-      height: 2
-    },
-    {
       src: require("assets/img/art/DancerPose2digi.jpg"),
-      width: 2,
+      width: 1.8,
       height: 2
-    },
-    {
-      src: require("assets/img/art/appa.jpg"),
-      width: 2,
-      height: 2.5,
     },
     {
       src: require("assets/img/art/DancerPose3digi.jpg"),
@@ -96,8 +87,23 @@ export const imglist =
       height: 2
     },
     {
+      src: require("assets/img/art/pooja.png"),
+      width: 2.5,
+      height: 3
+    },
+    {
       src: require("assets/img/art/lion.jpg"),
       width: 2.5,
+      height: 2
+    },
+    {
+      src: require("assets/img/art/islamicart.jpg"),
+      width: 1.5,
+      height: 2
+    },
+    {
+      src: require("assets/img/art/quote.jpg"),
+      width: 1.5,
       height: 2
     },
     {
@@ -126,14 +132,19 @@ export const imglist =
       height: 2
     },
     {
+      src: require("assets/img/art/llama.jpg"),
+      width: 2,
+      height: 2
+    },
+    {
       src: require("assets/img/art/alexp.jpg"),
       width: 1.5,
       height: 2
     },
     {
-      src: require("assets/img/art/llama.jpg"),
-      width: 2,
-      height: 2
+      src: require("assets/img/art/sonali.jpg"),
+      width: 2.5,
+      height: 3.5
     },
     {
       src: require("assets/img/art/chitra.jpg"),
@@ -161,18 +172,13 @@ export const imglist =
       height: 2
     },
     {
-      src: require("assets/img/art/quote.jpg"),
-      width: 1.5,
+      src: require("assets/img/art/ananth.png"),
+      width: 2,
       height: 2
     },
     {
       src: require("assets/img/art/Watermarked_Shark.jpg"),
       width: 3,
-      height: 2
-    },
-    {
-      src: require("assets/img/art/islamicart.jpg"),
-      width: 1.5,
       height: 2
     },
     {
@@ -201,64 +207,59 @@ export const imglist =
       height: 2
     },
     {
-      src: require("assets/img/art/aparna.jpeg"),
+      src: require("assets/img/art/aparna.jpg"),
       width: 2,
       height: 2.5
     },
     {
-      src: require("assets/img/art/poojadigi.jpeg"),
+      src: require("assets/img/art/poojadigi.jpg"),
       width: 2,
       height: 2
     },
     {
-      src: require("assets/img/art/gandalf.jpeg"),
+      src: require("assets/img/art/gandalf.jpg"),
       width: 2.5,
       height: 2
     },
     {
-      src: require("assets/img/art/mandala1.jpeg"),
+      src: require("assets/img/art/mandala1.jpg"),
       width: 3,
       height: 3
     },
     {
-      src: require("assets/img/art/ajportrait.jpeg"),
+      src: require("assets/img/art/ajportrait.jpg"),
       width: 1.5,
       height: 2
     },
     {
-      src: require("assets/img/art/velazquez.jpeg"),
+      src: require("assets/img/art/velazquez.jpg"),
       width: 1.5,
       height: 2
     },
     {
-      src: require("assets/img/art/anushka.jpeg"),
+      src: require("assets/img/art/anushka.jpg"),
       width: 1.5,
       height: 2
     },
     {
-      src: require("assets/img/art/mandala2.jpeg"),
+      src: require("assets/img/art/mandala2.jpg"),
       width: 2.5,
       height: 3
     },
     {
-      src: require("assets/img/art/commission1.jpeg"),
+      src: require("assets/img/art/commission1.jpg"),
       width: 4,
       height: 3
     },
     {
-      src: require("assets/img/art/house.jpeg"),
+      src: require("assets/img/art/house.jpg"),
       width: 1.5,
       height: 2
     },
     {
-      src: require("assets/img/art/mandala3.jpeg"),
+      src: require("assets/img/art/mandala3.jpg"),
       width: 3,
       height: 3
-    },
-    {
-      src: require("assets/img/art/shiva.jpeg"),
-      width: 1.75,
-      height: 2
     }
   ];
 
