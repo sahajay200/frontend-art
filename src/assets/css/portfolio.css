@@ -19,3 +19,15 @@
   background: black;
   padding: 10px;
 }
+
+.portfolio_images {
+  margin: 10px;
+}
+
+
+.parent_div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color:#36363b;
+}
